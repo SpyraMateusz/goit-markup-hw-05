@@ -63,13 +63,22 @@
       <section class="background-color">
         <div class="main-button-place">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="secondary-menu-button" type="button">Zamów usługę</button>
+        <button data-modal-open class="secondary-menu-button" type="button">Zamów usługę</button>
       </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button data-modal-close class="modal_icon-close">
+                <svg class="close" width="11" height="11">
+                    <use href="./images/symbol-defs.svg#icon-close-2"></use>
+                </svg>
+              </button>
+            </div>
+        </div>
       </section>
       <section class="sectionn section__short-padding-bottom">
         <div class="container">
             <ul class="articles__list">
-                <li >
+                <li>
                     <div class="article">
                         <figure class="article__figure">
                             <svg class="article__icon" 
@@ -149,7 +158,7 @@
         <h3 class="part-of-the-page">Czym sie zajmujemy</h3>
       <div>
         <ul class="presentation">
-          <li>
+          <li class="relative">
             <img
               src="./images/codeonthedescop.jpg"
               width="370"
@@ -160,7 +169,7 @@
               APLIKACJE KOMPUTEROWE
           </p>
           </li>
-          <li>
+          <li class="relative">
             <img
               src="./images/mobileapplications.jpg"
               width="370"
@@ -171,7 +180,7 @@
               APLIKACJE MOBILNE
           </p>
           </li>
-          <li>
+          <li class="relative">
             <img
               src="./images/palletofthecolors.jpg"
               width="370"
@@ -417,5 +426,7 @@
   </div>
 </div>
 </footer>
+<script src="./js/modal.js">
+</script>
   </body>
 </html>
