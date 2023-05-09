@@ -26,6 +26,8 @@ body {
   padding: 0 15px;
   width: 1170px;
   margin: auto;
+  display: flex;
+  flex-direction: inherit;
 }
 span {
   color: var(--secondary-color);
@@ -408,14 +410,7 @@ img {
   height: 20px;
   fill: var(--third-color);
 }
-.container-main-team {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .section__short-padding-bottom {
   padding-bottom: 0px;
 }
@@ -984,7 +979,7 @@ img {
 .container-main-cards {
   width: 1200px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0px 15px;
   display: flex;
 }
 .cards {
