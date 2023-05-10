@@ -571,12 +571,6 @@ img {
   padding-bottom: 60px;
   background-color: rgb(47, 48, 58);
 }
-.footer {
-  padding-right: 15px;
-  display: flex;
-  align-content: flex-start;
-  column-gap: 70px;
-}
 .footer__item {
   display: flex;
   flex-direction: column;
@@ -735,7 +729,6 @@ img {
 }
 .menu__contact {
   display: flex;
-  padding: 0px 10px;
 }
 .menu__contact-items {
   display: flex;
@@ -865,7 +858,7 @@ img {
   color: var(--secondary-color);
 }
 .client__item {
-  width: 168px;
+  width: 170px;
   height: 90px;
   display: flex;
   justify-content: center;
