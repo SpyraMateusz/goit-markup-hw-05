@@ -112,7 +112,6 @@ span {
 .footer-phone:focus {
   color: var(--secondary-color);
 }
-
 .figcaption-main {
   font-weight: 700;
   font-size: 18px;
@@ -404,7 +403,6 @@ h1 {
 img {
   display: block;
 }
-
 .social-icon {
   width: 20px;
   height: 20px;
@@ -773,7 +771,6 @@ img {
   color: var(--secondary-color);
   fill: var(--secondary-color);
 }
-/* second-section-nasi klienci */
 .page-headerr {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(236, 236, 236);
